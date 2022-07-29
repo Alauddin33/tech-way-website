@@ -2,6 +2,10 @@
     width: 22%;
 }
 
+.slide-bg {
+    background-color: black;
+}
+
 .footer {
     height: 400px;
     background-color: #161616;
