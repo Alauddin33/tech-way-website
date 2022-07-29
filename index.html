@@ -21,12 +21,6 @@
             <nav class="navbar navbar-expand-lg bg-light fixed-top">
                 <div class="container">
                     <a class="navbar-brand fw-bold fs-2" href="#">Tech Way</a>
-
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mb-2 mb-lg-0">
                             <li class="nav-item">
@@ -48,11 +42,15 @@
                                 <a class="nav-link" href="#register">Register</a>
                             </li>
                         </ul>
-                        <form class="ms-auto" role="search">
-                            <button class="btn btn-outline-success md-d-block fw-bold" type="submit">Register</button>
-                        </form>
                     </div>
-
+                    <form class="ms-auto d-none d-md-block" role="search">
+                        <button class="btn btn-outline-success md-d-block fw-bold" type="submit">Register</button>
+                    </form>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
                 </div>
                 </div>
             </nav>
@@ -219,7 +217,7 @@
         <!-- Course end -->
         <!-- Register section start -->
         <section id="register"
-            class=" container background-color border rounded register d-flex justify-content-evenly align-items-center margin">
+            class="container background-color border rounded register margin d-flex justify-content-between align-items-center registration ">
             <div class="text-white">
                 <h2>Ready to join?</h2>
                 <p>It is a long established fact that a reader will be distracted by the
@@ -273,7 +271,7 @@
             <!------------------
                 Accordion added 
             -------------------->
-            <div class="w-50 m-auto">
+            <div class="w-75 m-auto">
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
@@ -353,7 +351,7 @@
         <!-- Queries section End -->
         <!-- Company logo section start  -->
         <section class="margin">
-            <div class="container">
+            <div class="container d-none d-lg-block">
                 <h2 class="text-center my-4">Trusted by over 800+ companies</h2>
                 <div class="d-flex justify-content-center">
                     <p><img src="./images/company/company-1.png" class="p-3 w-75" alt=""></p>
